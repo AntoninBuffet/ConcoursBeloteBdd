@@ -1,7 +1,6 @@
 ﻿Fonctionnalité: InscriptionConcoursBelote
 
 
-
 Scénario: InscriptionDeuxPersonnes
 Etant donné que j'ai un concoursde belote
 Et que je suis à l'étape inscription

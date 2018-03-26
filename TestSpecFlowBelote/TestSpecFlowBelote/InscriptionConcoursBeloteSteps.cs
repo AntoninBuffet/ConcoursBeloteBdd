@@ -6,7 +6,7 @@ namespace TestSpecFlowBelote
     [Binding]
     public class InscriptionConcoursBeloteSteps
     {
-        public ConcoursBelote ConcoursBelote { get; set; }
+        internal ConcoursBelote ConcoursBelote { get; set; }
 
         [Given(@"que j'ai un concoursde belote")]
         public void SoitQueJAiUnConcoursdeBelote()
@@ -17,7 +17,7 @@ namespace TestSpecFlowBelote
         [Given(@"que je suis à l'étape inscription")]
         public void SoitQueJeSuisALEtapeInscription()
         {
-            concou
+            ScenarioContext.Current.Pending();
         }
 
 

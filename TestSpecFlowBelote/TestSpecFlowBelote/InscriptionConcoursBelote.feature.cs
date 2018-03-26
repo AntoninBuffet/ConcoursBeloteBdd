@@ -88,15 +88,15 @@ namespace TestSpecFlowBelote
         public virtual void InscriptionDeuxPersonnes()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("InscriptionDeuxPersonnes", ((string[])(null)));
-#line 5
+#line 4
 this.ScenarioSetup(scenarioInfo);
-#line 6
+#line 5
 testRunner.Given("j\'ai un concoursde belote", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Etant donné que ");
-#line 7
+#line 6
 testRunner.And("je suis à l\'étape inscription", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Et que ");
-#line 8
+#line 7
 testRunner.When("Deux personnes arrive pour s\'inscrire aux concours de belote", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Quand ");
-#line 9
+#line 8
 testRunner.Then("Ils forment une équipe de deux personnes pour le Concours", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Alors ");
 #line hidden
             this.ScenarioCleanup();
